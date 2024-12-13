@@ -7,7 +7,59 @@
 - Md Shamin Yeasher Yousha
 
 [![Final Report](https://img.shields.io/badge/Final-Report-brightgreen)](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/blob/main/Aerial_Robotics_Report.pdf)
-[![Demo Video](https://img.shields.io/badge/Demo-Video-yellow)](https://docs.google.com/presentation/d/1lmiLqsiifWMmET5kIFi9zD4oFJeV8fzxxEENVJWg-zc/edit?usp=sharing)
+[![Demo Video](https://img.shields.io/badge/Demo-Video-yellow)](https://youtu.be/00TYHoU0B4w)
+
+---
+
+## Hardware Description
+
+The hardware components for the project were provided by the [Autonomous Robots Lab](https://www.autonomousrobotslab.com/). Below are the key components:
+
+- **FLIR Blackfly USB3 Colored Imaging Camera**: High-performance industrial camera for capturing stabilized video feeds.
+- **2 Pololu MinIMU-9 v6**: Combines a gyroscope, accelerometer, and magnetometer for precise motion tracking.
+- **2 Servos**: Enables smooth movement along pan and tilt axes.
+- **Raspberry Pi 4 Model B**: Acts as the main computational hub.
+- **Arduino UNO**: Controls servos and processes IMU data.
+
+All CAD files required for assembling the hardware are available [here](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/tree/main/CAD_Files).
+
+| **Front View**                                                                                   | **Back View**                                                                                   |
+|------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| ![Front View](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/raw/main/Images/Front.jpeg) | ![Back View](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/raw/main/Images/Back.jpeg) |
+
+This setup enables rotation of the camera along both horizontal (pan) and vertical (tilt) axes, enhancing its flexibility for various applications. The design details include:
+
+- **Tilt Mechanism**: One servo motor mounted on the bottom plate for tilt control, providing movement along the vertical axis (20° to 140°).
+- **Pan Mechanism**: Another servo motor on the top plate, enabling a horizontal pan range of 30° to 130°.
+
+The assembled system facilitates precise and smooth camera positioning.
+
+### Assembling the System
+
+Print and assemble the system using the CAD files, ensuring proper alignment of components. Refer to the images below for guidance:
+
+
+| ![Image 1](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/raw/main/Images/1.jpeg)   | ![Image 2](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/raw/main/Images/2.jpeg)   |
+
+| ![Image 3](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/raw/main/Images/3.jpeg)   | ![Image 4](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/raw/main/Images/4.jpeg)   |
+
+---
+
+## Viewpoint Control
+
+Once the system is assembled, configure the control system by following these steps:
+
+1. **Upload the Arduino Code**
+   - Download the Arduino code file: [Arduino/minIMU9_Stabilization.ino](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/blob/main/Arduino/minIMU9_Stabilization.ino).
+   - Use the Arduino IDE to upload the code to the Arduino UNO via serial communication.
+
+2. **Calibration**
+   - During startup, the IMU calibrates itself by estimating biases. Ensure the system remains stationary during this process.
+
+3. **Operation**
+   - Once calibrated, the system actively compensates for pan and tilt motions, functioning effectively as a gimbal. The servos adjust the camera's orientation in real-time based on IMU readings.
+
+This setup ensures stabilized video output while maintaining flexibility for manually controlling the viewpoint if necessary.
 
 ---
 
@@ -114,6 +166,3 @@ The table below showcases the results of stabilization using the Gyroflow applic
 For any queries, please contact:
 [<b>bhowmikabhimanyu@gmail.com</b>](mailto:bhowmikabhimanyu@gmail.com)
 [<b>tihan.mh@gmail.com</b>](mailto:tihan.mh@gmail.com)
-
-
-
