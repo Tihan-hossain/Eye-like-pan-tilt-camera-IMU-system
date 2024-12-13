@@ -105,7 +105,12 @@ The table below showcases the results of stabilization using the Gyroflow applic
 
 | **Before Stabilization**                                                                                   | **After Stabilization**                                                                                   |
 |------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [Recorded Video](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/blob/main/Demo%20Videos/recorded_video.mp4) | [Stabilized Video](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/blob/main/Demo%20Videos/recorded_video_stabilized.mp4) |
+| <video src=https://github.com/user-attachments/assets/184b9fb5-b0d6-4d08-b3e8-1c603337719f/>| <video src=https://github.com/user-attachments/assets/4715f8c0-b036-4d0f-9292-d359e889599b/> |
+
+
+
+
+
 
 ---
 
