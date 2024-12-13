@@ -15,8 +15,8 @@
 
 The hardware components for the project were provided by the [Autonomous Robots Lab](https://www.autonomousrobotslab.com/). Below are the key components:
 
-- **FLIR Blackfly USB3 Colored Imaging Camera**: High-performance industrial camera for capturing stabilized video feeds.
-- **2 Pololu MinIMU-9 v6**: Combines a gyroscope, accelerometer, and magnetometer for precise motion tracking.
+- **[FLIR Blackfly USB3 Colored Imaging Camera](https://www.teledynevisionsolutions.com/en-150/products/blackfly-s-usb3/?vertical=machine+vision&segment=iis)**: High-performance industrial camera for capturing stabilized video feeds.
+- **2 [Pololu MinIMU-9 v6](https://www.pololu.com/product/2862)**: Combines a gyroscope, accelerometer, and magnetometer for precise motion tracking.
 - **2 AGFRC IB53BHP 20kg Servos**: Enables smooth movement along pan and tilt axes.
 - **Raspberry Pi 4 Model B**: Acts as the main computational hub.
 - **Arduino UNO**: Controls servos and processes IMU data.
@@ -52,13 +52,13 @@ Once the system is assembled, configure the control system by following these st
 
 1. **Upload the Arduino Code**
    - Download the Arduino code file: [Arduino/minIMU9_Stabilization.ino](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/blob/main/Arduino/minIMU9_Stabilization.ino).
-   - Use the Arduino IDE to upload the code to the Arduino UNO via serial communication.
-
+   - Install the LSM6 and BasicLinearAlgebra Libraries from the Arduino Library Manager
+   - Upload the code to the Arduino UNO.
 2. **Calibration**
-   - During startup, the IMU calibrates itself by estimating biases. Ensure the system remains stationary during this process.
+   - During startup, IMUs calibrate themselves by estimating biases. Ensure the system remains stationary during this process for a few seconds.
 
 3. **Operation**
-   - Once calibrated, the system actively compensates for pan and tilt motions, functioning effectively as a gimbal. The servos adjust the camera's orientation in real-time based on IMU readings.
+   - Once calibrated, the system actively compensates for pan and tilt motions, functioning effectively as a gimbal. The servos adjust the camera's orientation in real time based on IMU readings.
 
 This setup ensures stabilized video output while maintaining flexibility for manually controlling the viewpoint if necessary.
 
