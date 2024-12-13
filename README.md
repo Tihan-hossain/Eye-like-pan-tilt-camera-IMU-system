@@ -100,9 +100,19 @@ After recording, you should have two files:
 ### 8. Stabilizing the Video
 Download the [Gyroflow application](https://github.com/gyroflow/) or its [Python Vesrion](https://github.com/gyroflow/gyroflow-python) onto your computer. Fetch the video and gyro CSV files from the Raspberry Pi. Use the `image_stab_ws/blackfly_camera.json` file as the lens profile in Gyroflow to produce a stabilized video.
 
+## 9. Results
+The table below showcases the results of stabilization using the Gyroflow application. The "Before Stabilization" video shows the original footage, and the "After Stabilization" video displays the stabilized output.
+
+| **Before Stabilization**                                                                                   | **After Stabilization**                                                                                   |
+|------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| [Recorded Video](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/blob/main/Demo%20Videos/recorded_video.mp4) | [Stabilized Video](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/blob/main/Demo%20Videos/recorded_video_stabilized.mp4) |
+
 ---
 
 ## Contact
 For any queries, please contact:
 [<b>bhowmikabhimanyu@gmail.com</b>](mailto:bhowmikabhimanyu@gmail.com)
+[<b>tihan.mh@gmail.com</b>](mailto:tihan.mh@gmail.com)
+
+
 
