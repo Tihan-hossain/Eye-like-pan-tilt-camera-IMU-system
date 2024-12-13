@@ -38,9 +38,10 @@ The assembled system facilitates precise and smooth camera positioning.
 
 Print and assemble the system using the CAD files, ensuring proper alignment of components. Refer to the images below for guidance:
 
-
+| 1                                                                                       | 2                                                                                       |
+|------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | ![Image 1](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/raw/main/Images/1.jpeg)   | ![Image 2](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/raw/main/Images/2.jpeg)   |
-
+| 3                                                                                   | 4                                                                                      |
 | ![Image 3](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/raw/main/Images/3.jpeg)   | ![Image 4](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/raw/main/Images/4.jpeg)   |
 
 ---
