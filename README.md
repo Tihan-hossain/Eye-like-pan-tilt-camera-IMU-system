@@ -17,11 +17,11 @@ The hardware components for the project were provided by the [Autonomous Robots 
 
 - **FLIR Blackfly USB3 Colored Imaging Camera**: High-performance industrial camera for capturing stabilized video feeds.
 - **2 Pololu MinIMU-9 v6**: Combines a gyroscope, accelerometer, and magnetometer for precise motion tracking.
-- **2 Servos**: Enables smooth movement along pan and tilt axes.
+- **2 AGFRC IB53BHP 20kg Servos**: Enables smooth movement along pan and tilt axes.
 - **Raspberry Pi 4 Model B**: Acts as the main computational hub.
 - **Arduino UNO**: Controls servos and processes IMU data.
 
-All CAD files required for assembling the hardware are available [here](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/tree/main/CAD_Files).
+All CAD files required for assembling the hardware are available [here](https://grabcad.com/library/animatronic-eye-mechanism-camera-stabilize-platform-1).
 
 | **Front View**                                                                                   | **Back View**                                                                                   |
 |------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
