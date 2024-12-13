@@ -105,7 +105,7 @@ The table below showcases the results of stabilization using the Gyroflow applic
 
 | **Before Stabilization**                                                                                   | **After Stabilization**                                                                                   |
 |------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| <video src=https://github.com/user-attachments/assets/184b9fb5-b0d6-4d08-b3e8-1c603337719f/>| <video src=https://github.com/user-attachments/assets/4715f8c0-b036-4d0f-9292-d359e889599b/> |
+| <video src=https://github.com/user-attachments/assets/184b9fb5-b0d6-4d08-b3e8-1c603337719f/> | <video src=https://github.com/user-attachments/assets/4715f8c0-b036-4d0f-9292-d359e889599b/> |
 
 
 
