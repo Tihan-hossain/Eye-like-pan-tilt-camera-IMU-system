@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+<node name="image_proc" pkg="image_proc" type="image_proc" ns="camera">
+  <remap from="image_raw" to="/camera/image_color/compressed" />
+  <remap from="camera_info" to="/camera/camera_info" />
+</node>
+</launch>

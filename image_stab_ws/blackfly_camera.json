@@ -1,0 +1,107 @@
+{
+    "name": "Flir Blackfly Color",
+    "note": "Converted from ROS calibration file",
+    "calibrated_by": "Abhimanyu Bhowmik",
+    "camera_brand": "FLIR",
+    "camera_model": "BFS-U3-04S2C-CS",
+    "lens_model": "3.6mm IR 1/2",
+    "camera_setting": "720p 4:3",
+    "calibrator_version": "0.2.1-alpha",
+    "date": "2024-12-13",
+    "calib_dimension": {
+        "w": 720,
+        "h": 540
+    },
+    "num_images": 0,
+    "use_opencv_fisheye": false,
+    "fisheye_params": {
+        "RMS_error": 0.0,
+        "camera_matrix": [
+            [
+                594.459213389503,
+                0.0,
+                377.5249782832341
+            ],
+            [
+                0.0,
+                592.346698001621,
+                279.6398303787196
+            ],
+            [
+                0.0,
+                0.0,
+                1.0
+            ]
+        ],
+        "distortion_coeffs": [
+            -0.3746372929023871,
+            0.1838110627171347,
+            -0.001808024556029622,
+            -0.0001901980695460037
+        ]
+    },
+    "use_opencv_standard": true,
+    "calib_params": {
+        "camera_matrix": [
+            [
+                594.459213389503,
+                0.0,
+                377.5249782832341
+            ],
+            [
+                0.0,
+                592.346698001621,
+                279.6398303787196
+            ],
+            [
+                0.0,
+                0.0,
+                1.0
+            ]
+        ],
+        "distortion_coeffs": [
+            -0.3746372929023871,
+            0.1838110627171347,
+            -0.001808024556029622,
+            -0.0001901980695460037,
+            0.0
+        ],
+        "rectification_matrix": [
+            [
+                1.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                1.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                1.0
+            ]
+        ],
+        "projection_matrix": [
+            [
+                509.86376953125,
+                0.0,
+                381.7268712339574,
+                0.0
+            ],
+            [
+                0.0,
+                543.1135864257812,
+                279.9138430963358,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        ]
+    }
+}
