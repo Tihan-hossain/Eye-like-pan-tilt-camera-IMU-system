@@ -6,7 +6,7 @@
 - [Tihan Mahmud Hossain](https://github.com/Tihan-hossain)
 - Md Shamin Yeasher Yousha
 
-[![Final Report](https://img.shields.io/badge/Final-Report-brightgreen)](https://github.com/abhimanyubhowmik/Underwater_Depth_Estimation/blob/main/Report/DepthDive.pdf)
+[![Final Report](https://img.shields.io/badge/Final-Report-brightgreen)](https://github.com/Tihan-hossain/Eye-like-pan-tilt-camera-IMU-system/blob/main/Aerial_Robotics_Report.pdf)
 [![Demo Video](https://img.shields.io/badge/Demo-Video-yellow)](https://docs.google.com/presentation/d/1lmiLqsiifWMmET5kIFi9zD4oFJeV8fzxxEENVJWg-zc/edit?usp=sharing)
 
 ---
@@ -76,7 +76,7 @@ rosrun rqt_reconfigure rqt_reconfigure
 Load the `image_stab_ws/camera_color.config` file for appropriate settings.
 
 ### 6. Connect and Configure the IMU
-For gyro readings, connect the Pololu Mini IMU 9 to the Raspberry Pi. Follow the steps provided in this repository: [https://github.com/DavidEGrayson/minimu9-ahrs](https://github.com/DavidEGrayson/minimu9-ahrs).
+For gyro readings, connect the Pololu MinIMU 9 to the Raspberry Pi. Follow the steps provided in this repository: [https://github.com/DavidEGrayson/minimu9-ahrs](https://github.com/DavidEGrayson/minimu9-ahrs).
 
 #### Run the Gyro Publisher
 ```bash
